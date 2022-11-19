@@ -2,7 +2,9 @@
 # sorted_numbers = [a, b, c]
 # print(f"{sorted(sorted_numbers)}")
 
-a, b, c = int(input()), int(input()), int(input())
+a = int(input())
+b = int(input())
+c = int(input())
 if a >= b and a >= c and b >= c:
     print(c, b, a)
 elif a <= b and a >= c and b >= c:
