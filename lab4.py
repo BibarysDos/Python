@@ -1,4 +1,8 @@
-a = 5
-a = a * 45 +(a//2)*5 + ((a+1)//2-1)*15
-print(a//60 + 9, a % 60)
+a = int(input())
 
+break1 = a//2
+break2 = (a-1)//2
+
+minute = 9 * 60 + a * 45 + break1 * 5 + break2 * 15
+
+print(f'{minute//60} {minute%60}')
